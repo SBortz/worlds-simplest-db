@@ -62,3 +62,6 @@ database.idx
 *.sst
 wal.log
 sstables/
+
+# IDE - JetBrains Rider / IntelliJ IDEA
+.idea/
