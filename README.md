@@ -2,6 +2,8 @@
 
 A simple key-value database implementation demonstrating different storage strategies and optimization techniques. This project showcases four progressively optimized versions of a database, each with different trade-offs between simplicity, performance, and features.
 
+Read a more detailed blog article here: [World's Simplest Database](https://github.com/SBortz/worlds-simplest-db)
+
 ## Overview
 
 This project implements a simple key-value database with four different versions:

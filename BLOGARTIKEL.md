@@ -37,7 +37,7 @@ public async Task<string?> GetAsync(string searchKey)
         .Where(parts => parts[0] == searchKey)
         .Select(parts => parts[1])
         .LastOrDefault(); // Neueste Version
-}
+} 
 ```
 
 **Lesekomplexität: O(n)** – Bei jedem Lesevorgang muss die gesamte Datei durchsucht werden. Bei 1 Million Einträgen bedeutet das: 1 Million Vergleiche pro Read.
